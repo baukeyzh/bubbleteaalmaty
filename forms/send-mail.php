@@ -46,7 +46,7 @@ try {
 
     // Отправляем письмо
     $mail->send();
-    echo 'Письмо успешно отправлено';
+    echo 'OK';
 } catch (Exception $e) {
-    echo "Произошла ошибка при отправке письма: {$mail->ErrorInfo}";
+    echo 'ERROR'. $mail->ErrorInfo . '</div>';
 }

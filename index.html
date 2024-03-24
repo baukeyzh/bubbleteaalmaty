@@ -1005,9 +1005,9 @@
             <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required></textarea>
           </div>
           <div class="my-3">
-            <div class="loading">Загрузка</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Ваше сообщение отправлено. Спасибо!</div>
+            <div class="loading" style="display: none;">Загрузка</div>
+            <div class="error-message" style="display: none;">Error: <div class="alert alert-danger">Произошла ошибка при отправке.</div></div>
+            <div class="sent-message" style="display: none;">Ваше сообщение отправлено. Спасибо!</div>
           </div>
           <div class="text-center"><button type="submit">Отправить сообщение</button></div>
         </form>
